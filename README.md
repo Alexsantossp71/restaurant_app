@@ -1,16 +1,52 @@
-# restaurant_app
+# 🍽️ Restaurant App — Delivery de Restaurante (Flutter)
 
-App de delivery bparte do restaurante.
+> Aplicativo Flutter de delivery para restaurante: splash screen, boas-vindas, cadastro e autenticação.
 
-## Getting Started
+## 📌 Sobre
 
-This project is a starting point for a Flutter application.
+App de delivery em Flutter (projeto de estudo) com o fluxo inicial de entrada do usuário: tela de splash, apresentação, cadastro de conta e tela de autenticação.
 
-A few resources to get you started if this is your first Flutter project:
+## ✨ Funcionalidades
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- ⏳ **Splash screen** com branding
+- 👋 **Tela de boas-vindas** (onboarding)
+- 📝 **Cadastro** de novo usuário
+- 🔑 **Autenticação** (login)
+- 🎨 Telas responsivas com Material Design
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Tecnologias
+
+- **Flutter** (Dart)
+- Material Design
+
+## 🚀 Como executar localmente
+
+```bash
+git clone https://github.com/Alexsantossp71/restaurant_app.git
+cd restaurant_app
+
+flutter pub get
+flutter run
+```
+
+## 📁 Estrutura
+
+```
+lib/
+├── main.dart                          # Ponto de entrada
+├── splashscreen.dart                  # Tela de abertura
+├── welcomescreen.dart                 # Boas-vindas
+├── registrationscreen.dart            # Cadastro
+└── authenticatefolder/
+    └── authenticatescreen.dart        # Login
+```
+
+## 👤 Autor
+
+**Alexandre Ramos** — [github.com/Alexsantossp71](https://github.com/Alexsantossp71)
+
+## 📄 Status
+
+Em desenvolvimento (última atualização: fevereiro/2022).
+
+> ℹ️ Existe um repositório duplicado (`resturant_app`) com um typo no nome — recomendação: arquivá-lo ou apagá-lo.
