@@ -3,12 +3,10 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:restaurant_app/registrationscreen.dart';
-import 'package:restaurant_app/welcomescreen.dart';
 
-import 'authenticatefolder/authenticatescreen.dart';
 
 class SplashScreen extends StatefulWidget {
-  const SplashScreen({Key? key}) : super(key: key);
+  const SplashScreen({super.key});
 
   @override
   createState() => _SplashScreen();
@@ -16,7 +14,7 @@ class SplashScreen extends StatefulWidget {
 
 class _SplashScreen extends State<SplashScreen> {
 
-  startTimer(){
+  void startTimer(){
     Timer(Duration(seconds:5), () async{
       Navigator.push(context, MaterialPageRoute(builder:(c)=> const RegistrationScreen()));
     });
