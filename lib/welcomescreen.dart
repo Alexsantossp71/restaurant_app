@@ -1,9 +1,8 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class WelcomeScreen extends StatefulWidget {
-  const WelcomeScreen({Key? key}) : super(key: key);
+  const WelcomeScreen({super.key});
 
   @override
   _WelcomeScreenState createState() => _WelcomeScreenState();
@@ -67,13 +66,13 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                             width: 210,
                             child: ElevatedButton(
                               style: ButtonStyle(
-                                  backgroundColor: MaterialStateProperty.all(
+                                  backgroundColor: WidgetStateProperty.all(
                                     Colors.black54,
                                   )
                               ),
                               child: const Text(
                                 "Entrar com e-mail",
-                                style: const TextStyle(
+                                style: TextStyle(
                                   fontWeight: FontWeight.bold,
                                   fontSize: 18,
                                   color: Colors.white,
@@ -91,7 +90,7 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                             width: 210,
                             child: ElevatedButton(
                                 style: ButtonStyle(
-                                    backgroundColor: MaterialStateProperty.all(
+                                    backgroundColor: WidgetStateProperty.all(
                                       Colors.black54,
                                     )
                                 ),
@@ -128,12 +127,12 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                                 width: 210,
                                 child: ElevatedButton(
                                   style: ButtonStyle(
-                                      backgroundColor: MaterialStateProperty.all(
+                                      backgroundColor: WidgetStateProperty.all(
                                         Colors.black54,
                                       )),
                                   child: const Text(
                                     "Não tenho cadastro",
-                                    style: const TextStyle(
+                                    style: TextStyle(
                                       fontWeight: FontWeight.bold,
                                       fontSize: 18,
                                       color: Colors.white,

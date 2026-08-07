@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class AuthenticateScreen extends StatefulWidget {
-  const AuthenticateScreen({Key? key}) : super(key: key);
+  const AuthenticateScreen({super.key});
 
   @override
   _AuthenticateScreenState createState() => _AuthenticateScreenState();
